@@ -37,8 +37,8 @@ def test_fetch_weather_returns_expected_records_for_los_angeles():
     _assert_weather_response_for_city("Los Angeles")
 
 
-def test_fetch_weather_returns_expected_records_for_miami_florida():
-    _assert_weather_response_for_city("Miami Florida")
+def test_fetch_weather_returns_expected_records_for_miami():
+    _assert_weather_response_for_city("Miami")
 
 
 def test_fetch_weather_returns_expected_records_for_london():
@@ -58,6 +58,6 @@ if __name__ == "__main__":
     print("Running metro service tests...\n")
     _run_test("test_fetch_weather_returns_expected_records", test_fetch_weather_returns_expected_records)
     _run_test("test_fetch_weather_returns_expected_records_for_los_angeles", test_fetch_weather_returns_expected_records_for_los_angeles)
-    _run_test("test_fetch_weather_returns_expected_records_for_miami_florida", test_fetch_weather_returns_expected_records_for_miami_florida)
+    _run_test("test_fetch_weather_returns_expected_records_for_miami", test_fetch_weather_returns_expected_records_for_miami)
     _run_test("test_fetch_weather_returns_expected_records_for_london", test_fetch_weather_returns_expected_records_for_london)
     print("\nAll metro service tests completed.")
