@@ -1,2 +1,4 @@
 project_1/.env
 project_1/venv
+project_1/__pycache__
+project_1/**/__pycache__/
